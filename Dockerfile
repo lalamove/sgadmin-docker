@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-alpine as builder
-ENV SG_VERSION "6.3.2-23.0"
+ENV SG_VERSION "6.4.0-23.0"
 
 WORKDIR /root/
 RUN apk add --no-cache wget ca-certificates openssl unzip bash
